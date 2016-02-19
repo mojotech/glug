@@ -282,7 +282,7 @@ $recently-added-width: 300px;
   border-bottom: 2px solid $color-shade;
   @include clearfix;
   padding: $block 0 $block $block;
-  position: absolute;
+  position: relative;
   width: 100%;
   background-color: white;
   transition: top 0.15s ease-in-out;

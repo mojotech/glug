@@ -142,8 +142,7 @@
 (defn modernator-item
   [data owner]
   (om/component
-    (dom/li #js {:className "list-item"
-                 :style #js {:top (str (* (:order data) 112) "px")}}
+    (dom/li #js {:className "list-item"}
       (dom/div #js {:className "left"}
         (dom/h3 #js {:className "item"}
           (dom/div #js {:className "number"}
